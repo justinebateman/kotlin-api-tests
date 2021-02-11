@@ -1,0 +1,27 @@
+
+# java stuff
+/target/
+/test-output/
+
+# IntelliJ
+*.iml
+.idea/
+/out/
+
+# Eclipse
+/.classpath
+/.project
+/.settings
+
+# Others
+.vs/
+/debug.log
+.metadata/
+.DS_Store
+
+# Gradle
+.gradle
+**/build/
+!src/**/build/
+gradle-app.setting
+!gradle-wrapper.jar
