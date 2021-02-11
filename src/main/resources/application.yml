@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: kotlin-api-tests
+
+#logging.level.org.springframework.web: debug
+
+spring.profiles.active: QA
+
+---
+
+spring:
+  profiles: QA
+web.api.endpoint: https://jsonplaceholder.typicode.com
+
+---
